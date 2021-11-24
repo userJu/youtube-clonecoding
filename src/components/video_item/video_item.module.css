@@ -1,0 +1,34 @@
+.container {
+  width: 50%;
+  /* box-sizing: border-box; 
+  기본적으로 box-sizing을 border-box로 하는 것이 좋기 때문에 한번에 index.css에서 해줄 것 */
+  padding: 0.2em;
+}
+.video {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  box-shadow: 1px 3px 3px 0px rgba(191, 191, 191, 0.53);
+  cursor: pointer;
+  transition: all 100ms ease-in;
+}
+.video:hover {
+  background-color: lightgray;
+}
+.thumbnail {
+  width: 40%;
+  height: 80%;
+}
+.metadata {
+  margin-left: 0.2em;
+}
+.title,
+.channel {
+  font-size: 0.8rem;
+  margin: 0;
+}
+.channel {
+  font-size: 0.6rem;
+}
