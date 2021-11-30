@@ -1,0 +1,8 @@
+.detail {
+  padding: 0.2em;
+}
+.description {
+  white-space: pre-wrap;
+  /* pre는 원래 공간을 넘어가서 사이즈가 계속 길어지는 문제가 있다.
+  그 현상을 해결하기 위한 것 */
+}
